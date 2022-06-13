@@ -77,6 +77,7 @@ public class ProductTest {
 
         assertArrayEquals(expected, actual);
     }
+
     @Test
     void deleteById2() {
         manager.add(book1);
